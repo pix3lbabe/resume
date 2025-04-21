@@ -1,0 +1,52 @@
+/* unvisited link */
+
+* {
+    margin: 200;
+    padding: 300;
+    box-sizing: border-box;
+}
+
+
+a:link {
+  color: #FFD8F0;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: #FF00FF;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: #FFFFFF;
+  text-decoration: overline;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+.nav, navigation {
+	font-family: Helvetica;
+	text-align: center; 
+	font-weight: bolder; 
+	font-size: 1.3em;
+	text-align: center;
+}	
+h2 {
+	color: #FFD8F0;
+	font-family: Courier, monospace;
+}
+p, ul, li {
+	font-family: Courier;
+	color:  #FFD8F0;
+	font-size: 1.2em;
+	line-height: 135%; 
+}
+li {
+	font-size: 0.9em;
+	color: #FFD8F0;
+	margin-bottom: 1.2em;
+}
